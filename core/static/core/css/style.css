@@ -11,3 +11,13 @@ html,body{
 .container-fluid{
     min-height: 100%;
 }
+
+/* services icon color */
+.i-colo {
+    color:teal;
+}
+
+/* service subtitile color */
+.ss-colo {
+    color:burlywood;
+}
