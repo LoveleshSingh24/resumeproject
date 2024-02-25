@@ -1,1 +1,73 @@
 {% extends "core/base.html" %}
+{% block main-content %}
+    <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">Contact Us<h1/>
+
+        <div class="row text-white mb-5">
+            <p class="mx-auto mb-5">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, laboriosam.
+            </p>
+
+            <div class="col-sm-9 mb-5">
+                <form action="">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <h3><label for="inputName">Your Name</label></h3>
+                            <input type="text" class="form-control" id="inputName"/>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <h3><label for="inputName">Your Email</label></h3>
+                            <input type="email" class="form-control" id="inputEmail"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h3><label for="inputName">Your Subject</label></h3>
+                        <input type="text" class="form-control" id="inputSubject"/>
+                    </div>
+                    <div class="md-3">
+                        <h3><label for="inputTextarea">Your Message *</label></h3>
+                        <textarea type="text" class="form-control" id="inputTextarea" required></textarea>
+                    </div>
+                    <button class="btn btn-primary " type="submit">Send</button>  
+                </form>
+            </div>
+
+
+
+
+            <div class="col-sm-3 text-center">
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-1x i-colo"></i>
+                        <h3>Ranchi,Jharkhand,India</h3>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone mt-4 fa-1x i-colo"></i>
+                        <h3>+91 9000000000</h3>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope mt-4 fa-1x i-colo"></i>
+                        <h3>xyz@gmail.com</h3>
+                    </li>
+                </ul>
+            </div>
+
+
+            
+            
+            
+            
+        </div>
+        
+        
+
+    </div>
+    
+
+    <div class="text-center">
+        <a href="#" target="_blank" ><i class="fab fa-twitter i-colo mr-3 fa-2x"></i></a>
+        <a href="#" target="_blank" ><i class="fab fa-facebook-f i-colo mr-3 fa-2x"></i></a>
+        <a href="#" target="_blank" ><i class="fab fa-instagram i-colo mr-3 fa-2x"></i></a>
+        <a1 href="#" target="_blank" ><i class="fab fa-dribbble i-colo mr-3 fa-2x"></i></a1
+    </div>
+{% endblock main-content %}

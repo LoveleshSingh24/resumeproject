@@ -21,3 +21,26 @@ html,body{
 .ss-colo {
     color:burlywood;
 }
+
+.nav-link{
+    color:teal;
+}
+.nav-link:hover{
+    color:white;
+    background-color: #e9cd79;
+}
+a.nav-link.active{
+    color:white;
+    background-color: #ffc107;
+    font-weight: bold;
+}
+.btn{
+    background-color: teal;
+    border-color: white ;
+}
+
+.btn:hover{
+    background-color: white;
+    color:teal;
+    font-weight: 400;
+}
